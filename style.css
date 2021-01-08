@@ -1,0 +1,204 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .border {
+  width: 600px;
+  height: 350px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+body .border .clouds {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+body .border .clouds .cloud1 {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 600px;
+  top: 1px;
+  background-color: black;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 49px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 40px;
+  -webkit-animation: clod1 6s infinite linear;
+          animation: clod1 6s infinite linear;
+}
+
+body .border .clouds .cloud2 {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  left: 600px;
+  top: 30px;
+  background-color: black;
+  border-top-left-radius: 88px;
+  border-top-right-radius: 85px;
+  border-bottom-left-radius: 76px;
+  border-bottom-right-radius: 79px;
+  -webkit-animation: clod2 6s infinite linear;
+          animation: clod2 6s infinite linear;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+body .border .clouds .cloud3 {
+  position: absolute;
+  width: 120px;
+  height: 70px;
+  left: 600px;
+  top: 20px;
+  background-color: black;
+  border-top-left-radius: 88px;
+  border-top-right-radius: 85px;
+  border-bottom-left-radius: 76px;
+  border-bottom-right-radius: 79px;
+  -webkit-animation: clod3 6s infinite linear;
+          animation: clod3 6s infinite linear;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes clod1 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+
+@keyframes clod1 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -100px;
+  }
+}
+
+@-webkit-keyframes clod2 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -150px;
+  }
+}
+
+@keyframes clod2 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -150px;
+  }
+}
+
+@-webkit-keyframes clod3 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -120px;
+  }
+}
+
+@keyframes clod3 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -120px;
+  }
+}
+
+body .border #charac {
+  position: absolute;
+  bottom: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  left: 25px;
+}
+
+body .border #obs1 {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 230px;
+  -webkit-animation: obst1 2.1s infinite linear;
+          animation: obst1 2.1s infinite linear;
+}
+
+body .border #obs2 {
+  width: 50px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 600px;
+  -webkit-animation: obst2 2.1s infinite linear;
+          animation: obst2 2.1s infinite linear;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes obst1 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes obst1 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@-webkit-keyframes obst2 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+@keyframes obst2 {
+  0% {
+    left: 600px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+body #tryagain {
+  width: 300px;
+}
+/*# sourceMappingURL=style.css.map */
